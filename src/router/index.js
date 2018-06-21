@@ -16,12 +16,18 @@ var routes = [
   {
     path: '/home',
     name: 'home',
-    component: Home
+    component: Home,
+    meta:{
+      index:0
+    }
   },
   {
     path: '/test',
     name: 'test',
-    component: Test
+    component: Test,
+    meta:{
+      index:1
+    }
   }
 ]
 
